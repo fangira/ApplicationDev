@@ -25,3 +25,16 @@ npm start
 - renderer.js(配合index.html使用的了逻辑文件，控制前端的逻辑，去调用nodejs api)
 
 打开之后，会发现是一个app，你要关闭这个app，交互是跟网页版本不一样
+
+### 用生成后的桌面应用 调试开发
+
+1.开启前端或后端服务器
+2.electron-quick-start/main.js
+```js
+  ···
+  //直接让start后的调试页面，指向你的服务器
+  mainWindow.loadURL('http://localhost:3000/#/hot')
+
+  ···
+```
+3. npm start
