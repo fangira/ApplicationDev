@@ -4,7 +4,7 @@
 
 ### [API参考](https://www.html5plus.org/doc/zh_cn/camera.html) 
 
-#### - camera
+#### - camera > 摄像机获取
 
 
 #### - IO > 读写模块
