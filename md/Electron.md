@@ -38,3 +38,27 @@ npm start
   ···
 ```
 3. npm start
+
+### 生成win和mac系统的安装包
+
+先安装electron-packager
+
+`cnpm i electron-packager -g`
+
+在package.json的scripts中添加命令
+```
+//package.json
+
+"scripts": {
+    "start": "electron .",
+    "package:win": "electron-packager . --overwrite --platform=win32 --arch=ia32 --out=out --icon=assets/app-icon/win/app.ico",
+    "package:mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --out=out --icon=assets/app-icon/mac/app.icns --osx-sign.identity='Developer ID Application: GitHub' --extend-info=assets/mac/info.plist"
+  },
+```
+
+在根目录添加文件夹assets <br/>  
+
+`--icon=assets/app-icon/win/app.ico`为图标路径
+
+最后执行`npm run package:win` 进行打包
+
