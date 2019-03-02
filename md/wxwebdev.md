@@ -4,6 +4,8 @@
 
 [老姚文档](https://github.com/Wscats/Good-Text-Share/issues/58)
 
+[微信小程序示例源码](https://github.com/wechat-miniprogram/miniprogram-demo)
+
 ## 注意
 
 - ### 尺寸单位
