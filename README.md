@@ -7,8 +7,9 @@
 
 ### 移动应用开发
 
-- [html5+（混合开发）](./md/html5.md)
+- [html5+（HBuilderX混合开发）](./md/html5.md)
 - [MUI（推荐UI）](http://dev.dcloud.net.cn/mui/)
+- [futter混合开发(未出)]()
 
 ### 微信小程序
 
